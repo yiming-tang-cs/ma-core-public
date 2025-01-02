@@ -1,8 +1,9 @@
 ![Mango Logo](https://github.com/MangoAutomation/ma-core-public/blob/main/Core/web/images/logo.png)  
 
+[![codecov](https://codecov.io/gh/yiming-tang-cs/ma-core-public/graph/badge.svg?token=R06IWFCFZ7)](https://codecov.io/gh/yiming-tang-cs/ma-core-public)
+
 [![DepShield Badge](https://depshield.sonatype.org/badges/infiniteautomation/ma-core-public/depshield.svg)](https://depshield.github.io)  
 
-[![codecov](https://codecov.io/gh/yiming-tang-cs/ma-core-public/graph/badge.svg?token=R06IWFCFZ7)](https://codecov.io/gh/yiming-tang-cs/ma-core-public)
 
 ## Mango Automation Core public code by [Infinite Automation](http://www.infiniteautomation.com)
 
