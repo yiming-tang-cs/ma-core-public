@@ -162,6 +162,28 @@
         </testResources>
         <pluginManagement>
             <plugins>
+
+           <plugin>
+               <groupId>org.jacoco</groupId>
+               <artifactId>jacoco-maven-plugin</artifactId>
+               <version>0.8.10</version>
+               <executions>
+                 <execution>
+                   <goals>
+                     <goal>prepare-agent</goal>
+                   </goals>
+                 </execution>
+                 <execution>
+                   <id>report</id>
+                   <phase>verify</phase>
+                   <goals>
+                     <goal>report</goal>
+                   </goals>
+                 </execution>
+               </executions>
+             </plugin>
+
+
                 <plugin>
                     <!-- Configure to run tests in separate JVM because Mango's Test Framework cannot be restarted in a JVM (yet) -->
                     <groupId>org.apache.maven.plugins</groupId>
@@ -173,6 +195,7 @@
                         <trimStackTrace>false</trimStackTrace>
                     </configuration>
                 </plugin>
+
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.1</version>
