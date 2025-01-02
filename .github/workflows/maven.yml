@@ -34,5 +34,6 @@ jobs:
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         slug: yiming-tang-cs/ma-core-public
-    codecov: 
-    token: 0c1446f7-ab30-452c-99b3-5bb17ede78c9
+        
+codecov: 
+token: 0c1446f7-ab30-452c-99b3-5bb17ede78c9
