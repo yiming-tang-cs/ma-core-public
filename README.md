@@ -1,6 +1,7 @@
 ![Mango Logo](https://github.com/MangoAutomation/ma-core-public/blob/main/Core/web/images/logo.png)  
 
 [![codecov](https://codecov.io/gh/yiming-tang-cs/ma-core-public/graph/badge.svg?token=R06IWFCFZ7)](https://codecov.io/gh/yiming-tang-cs/ma-core-public)
+[![Java CI with Maven](https://github.com/yiming-tang-cs/ma-core-public/actions/workflows/maven.yml/badge.svg)](https://github.com/yiming-tang-cs/ma-core-public/actions/workflows/maven.yml)
 
 [![DepShield Badge](https://depshield.sonatype.org/badges/infiniteautomation/ma-core-public/depshield.svg)](https://depshield.github.io)  
 
