@@ -34,4 +34,10 @@ jobs:
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         slug: yiming-tang-cs/ma-core-public
+    - name: Build JAR
+        run: mvn package
+    - name: Create Release
+        uses: softprops/action-gh-release@v1
+      with:
+        files: target/*.jar
         
