@@ -418,14 +418,11 @@
         <tag>HEAD</tag>
     </scm>
     <distributionManagement>
-        <snapshotRepository>
-            <id>ias-snapshots</id>
-            <url>https://maven.mangoautomation.net/repository/ias-snapshot/</url>
-        </snapshotRepository>
-        <repository>
-            <id>ias-releases</id>
-            <url>https://maven.mangoautomation.net/repository/ias-release/</url>
-        </repository>
+         <repository>
+             <id>github</id>
+             <name>GitHub Packages</name>
+             <url>https://maven.pkg.github.com/yiming-tang-cs/ma-core-public</url>
+         </repository>
     </distributionManagement>
     <repositories>
         <repository>
